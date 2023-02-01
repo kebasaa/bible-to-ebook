@@ -1,0 +1,22 @@
+<structure>
+    <title book='GEN'>
+	    <eng>Genesis – The Beginning</eng>
+		<fra>Genèse – Au commencement</fra>
+	</title>
+	<title book='EXO'>
+	    <eng>Exodus – The Names</eng>
+		<fra>Exode – Les noms</fra>
+	</title>
+	<title book='LEV'>
+	    <eng>Leviticus – ‘And He called’</eng>
+		<fra>Lévitique – ‘Et il appela’</fra>
+	</title>
+	<title book='NUM'>
+	    <eng>Numbers – In the desert</eng>
+		<fra>Nombres – Dans le désert</fra>
+	</title>
+	<title book='DEU'>
+	    <eng>Deuteronomy – Words</eng>
+		<fra>Deutéronome – Mots</fra>
+	</title>
+</structure>
