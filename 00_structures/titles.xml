@@ -1,0 +1,57 @@
+<structure>
+    <title book='GEN' chap='1' verse='1'>
+	    <eng>The Creation of the World</eng>
+		<fra>La création du monde</fra>
+		<kqs>Mɛɛ Hala cɔw halataalaa a lɛŋnden yɛ</kqs>
+	</title>
+	<title book='JHN' chap='1' verse='1'>
+	    <eng>Section 1</eng>
+		<fra>Section 1</fra>
+		<deu>Teil 1</deu>
+	</title>
+	<title book='JHN' chap='2' verse='12'>
+	    <eng>Section 2</eng>
+		<fra>Section 2</fra>
+		<deu>Teil 2</deu>
+	</title>
+	<title book='JHN' chap='3' verse='22'>
+	    <eng>Section 3</eng>
+		<fra>Section 3</fra>
+		<deu>Teil 3</deu>
+	</title>
+	<title book='JHN' chap='5' verse='1'>
+	    <eng>Section 4</eng>
+		<fra>Section 4</fra>
+		<deu>Teil 4</deu>
+	</title>
+	<title book='JHN' chap='6' verse='1'>
+	    <eng>Section 5</eng>
+		<fra>Section 5</fra>
+		<deu>Teil 5</deu>
+	</title>
+	<title book='JHN' chap='7' verse='1'>
+	    <eng>Section 6</eng>
+		<fra>Section 6</fra>
+		<deu>Teil 6</deu>
+	</title>
+	<title book='JHN' chap='7' verse='53'>
+	    <eng>Interlude</eng>
+		<fra>Interlude</fra>
+		<deu>Exkurs</deu>
+	</title>
+	<title book='JHN' chap='8' verse='12'>
+	    <eng>Section 6 (continued)</eng>
+		<fra>Section 6 (continuée)</fra>
+		<deu>Teil 6 (Fortführung)</deu>
+	</title>
+	<title book='JHN' chap='19' verse='38'>
+	    <eng>Section 7</eng>
+		<fra>Section 7</fra>
+		<deu>Teil 7</deu>
+	</title>
+	<title book='JHN' chap='21' verse='1'>
+	    <eng>Epilogue</eng>
+		<fra>Épilogue</fra>
+		<deu>Epilog</deu>
+	</title>
+</structure>
