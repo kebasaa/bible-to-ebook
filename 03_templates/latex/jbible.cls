@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{jbible}[2020/11/11 Jonathan D. Muller's journaling Bible class]
+\ProvidesClass{jbible}[2022/11/11 Jonathan D. Muller's journaling Bible class]
 
 %% Required packages
 %% - - - - - - - - -
@@ -23,6 +23,7 @@
 \definecolor{darkblue}{HTML}{0f0080}
 \definecolor{nightblue}{HTML}{0b005f}
 \definecolor{darkbrown}{HTML}{693300}
+\definecolor{darkgrey}{HTML}{828282}
 
 \RequirePackage{lettrine}
 
@@ -61,6 +62,19 @@
 \setmargins
 \linespace
 
+\RequirePackage[bookmarksnumbered,
+            colorlinks,
+            linkcolor=nightblue,
+            citecolor=nightblue,
+            filecolor=black,
+            urlcolor=nightblue,
+            pdftitle={Journaling Bible}%,
+            %breaklinks=true%,
+            %pdfpagelayout=TwoPageRight%,
+            %pdfstartpage=9
+            ]{hyperref}
+\urlstyle{rm}
+
 % Reduce spacing in TOC
 \RequirePackage{tocloft}
 \renewcommand\cftchapafterpnum{\vskip2pt}
@@ -85,11 +99,13 @@
 % Chapter without number, but part of the TOC
 \newcommand{\nonumchapter}[1]{
     \chapter*{#1}
+    \phantomsection
     \addcontentsline{toc}{chapter}{#1}
     \chaptermark{#1}
 }
 \newcommand{\nonumsection}[1]{
     \section*{#1}
+    \phantomsection
     \addcontentsline{toc}{section}{#1}
     \sectionmark{#1}
 }
